@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="titleScreen" class="centerH">
+  <h1 id="title" class="adjust" data-font-size="15">Highway Clicker</h1><br>
+  <button id="startButton" class="adjust" data-font-size="40" style="background-color: #008450">Start</button><br>
+  <button class="adjust" data-font-size="70" style="background-color: #EFB700">Save code</button><br>
+  <button class="adjust" data-font-size="120" style="background-color: #B81D13">
+    <href src="https://codepen.io/Henslo/full/QWdEMXR">Play Ayuj Brian deletor</href>
+  </button>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSrzDS7pPZ4eFJxTtcxG-hGQ_wUT5aShckaWLl9Ab10BN1Xhc&s" id="titlePic" />
+</div>
+<div id="mainScreen">
+  <div id="upper">
+    <div style="width: 25%"></div>
+    <svg id="highway" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <g id="cars">
+          <g id="basic">
+            <path d="M 0 0 v 80 h 200 v -80 h -200 z m 60 -3 v 86 h 100 v -86 h -100 z" stroke="black" stroke-width="5" />
+          </g>
+        </g>
+      </defs>
+      <g id="feild">
+        <rect x="0" y="0" width="1000" height="25" fill="green" />
+        <rect x="0" y="475" width="1000" height="25" fill="green" />
+        <rect x="0" y="25" width="1000" height="450" fill="#181818" />
+        <path d="M 0 250 h 1000" stroke="yellow" stroke-width="10" fill="none" />
+        <path d="M 0 137.5 h 1000" stroke="white" stroke-width="5" stroke-dasharray="25" fill="none" />
+        <path d="M 0 362.5 h 1000" stroke="white" stroke-width="5" stroke-dasharray="25" fill="none" />
+      </g>
+    </svg>
+    <div style="width: 25%">
+      <label>Money: $<span id="money" class="bold">0</span></label>
+    </div>
+  </div>
+  <div id="bottom">
+    <div id="carUpgradeDiv">
+      <p class="bold" style="font-size: 35px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px">Cars</p>
+      <div id="carUpgrades">
+        
+      </div>
+    </div>
+  </div>
+  <div id="upgradePopUp">
+    <div id="carUpgradePopUp">
+      <div class="upgradeButtons">
+        <h1><b>Upgrades</b></h1>
+      </div>
+      <div class="stats">
+        <h1><b>Stats</b></h1>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
