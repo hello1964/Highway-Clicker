@@ -120,7 +120,7 @@ body {
 }
 
 #upgradePopUp div {
-  display: tabe;
+  display: table;
   background-color: white;
   border: 2px solid black;
   position: relative;
@@ -135,14 +135,13 @@ body {
   height: 75%;
 }
 
-#carUpgradePopUp .stats {
+#carUpgradePopUp .upgradeButtons {
   display: inline-block;
   width: 50%;
   height: 100%;
 }
 
-#carUpgradePopUp .upgradeButtons {
-  float: left;
+#carUpgradePopUp .stats {
   display: inline-block;
   width: 50%;
   height: 100%;
