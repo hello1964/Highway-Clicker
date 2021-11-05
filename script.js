@@ -71,6 +71,14 @@ window.addEventListener("resize", (eve) => {
 
 window.dispatchEvent(new Event("resize"))
 
+clean(document.getElementsByClassName("backButton")).forEach((e) => {
+  e.addEventListener("click", (eve) => {
+    let self = eve.currentTarget
+
+    e.parentNode.parentNode.style.display = "none"
+  })
+})
+
 run()
 
 class Car {
