@@ -119,7 +119,7 @@ body {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-#upgradePopUp div {
+#upgradePopUp .body {
   display: table;
   background-color: white;
   border: 2px solid black;
@@ -137,12 +137,14 @@ body {
 
 #carUpgradePopUp .upgradeButtons {
   display: inline-block;
+  border: 2px solid black;
   width: 50%;
   height: 100%;
 }
 
 #carUpgradePopUp .stats {
   display: inline-block;
+  border: 2px solid black;
   width: 50%;
   height: 100%;
 }
